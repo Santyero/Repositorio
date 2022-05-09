@@ -1,0 +1,22 @@
+.twoSection {
+    background-color: #0a192f;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    .gitBlocks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10%;
+        .gitBlock {
+            background-color: aliceblue;
+            width: 200px;
+            height: 130px;
+            padding: 20px;
+            margin: 20px;
+        }
+    }
+
+}
