@@ -3,8 +3,8 @@ import "../styles/twoScetion.scss";
 
 function GenerateBlock() {
   return (
-    <div className="gitBlock">
-      sasd
+    <div className="project">
+      <i class="fa-solid fa-folders"></i>
     </div>
   );
 }
@@ -13,7 +13,7 @@ function GenerateBlock() {
 const TwoSection = () => {
   return (
     <section className="twoSection">
-      <div className="gitBlocks">
+      <div className="gitProjects">
         <GenerateBlock />
         <GenerateBlock />
         <GenerateBlock />
