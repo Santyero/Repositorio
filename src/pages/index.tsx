@@ -3,6 +3,7 @@ import "../styles/normalize.scss";
 import "../styles/firstSection.scss";
 import "../styles/styles.scss";
 
+import TwoSection from "./twoSection";
 
 let name = generateNames();
 function generateNames() {
@@ -28,6 +29,16 @@ const IndexPage = () => {
   }, 1000);
   return (
     <main>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Portifolio Santyero</title>
+      <section className="firstSection">
+        <div className="">
+          <h1>
+            Santyero Santos
+          </h1>
+        </div>
+      </section>
+      <TwoSection />
       <title>Portifolio Santyero</title>
       <section className="firstSection">
         <div className="name">

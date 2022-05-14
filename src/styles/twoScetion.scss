@@ -1,0 +1,26 @@
+.twoSection {
+    background-color: #0a192f;
+
+    position: relative;
+    // width: 100vw;
+    // height: 100vh;
+
+    .gitProjects {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 15px;
+        position: relative;
+        padding: 10%;
+
+        .project {
+            background-color: #112240;
+            color: aliceblue;
+            width: 200px;
+            height: 130px;
+            padding: 20px;
+            margin: 20px;
+        }
+    }
+
+}
